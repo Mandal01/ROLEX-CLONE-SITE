@@ -1,0 +1,54 @@
+body{
+    margin:auto 0;
+    padding:0;  
+    background-image: linear-gradient(to right,#0598b9,#057974,#047d56);
+}
+.text{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    font-size: 100px;
+    text-align:center;
+    margin:300px 0;
+    color:white;
+}
+
+.transparent{
+    border-radius:20px;
+    height:250px;
+    width: 900px;
+    margin-top: -40px;
+    margin-left: 20px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 5px 0;
+    
+}
+
+.transparent1{
+    border-radius:20px;
+    height:250px;
+    width: 900px;
+    margin-top: -515px;
+    margin-left: 28px;
+    backdrop-filter: blur(3px);
+    box-shadow: 0 0 5px 0;
+}
+
+.circle{
+    height:400px;
+    width:400px;
+    border-radius: 100%;
+    background-image: linear-gradient(to right,rgb(115, 115, 161) ,rgb(216, 235, 165),rgb(243, 160, 122));
+    margin-top: -493px;
+    margin-left: 619px;
+    animation-name: spin;
+    animation-duration: 5s;
+}
+@keyframes spin {
+    0%   {background-image: linear-gradient(to right,red,green,blue);}
+    25%  {background-image:to left, yellow,green,blue;}
+    50%  {background-image:to left, blue red,green;}
+    100% {background-image: green,red,blue;}
+  }
+
